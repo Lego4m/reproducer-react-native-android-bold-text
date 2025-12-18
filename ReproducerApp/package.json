@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "react": "19.2.0",
-    "react-native": "0.83.0",
+    "react-native": "0.84.0-nightly-20251218-c7f433a41",
     "@react-native/new-app-screen": "0.83.0",
     "react-native-safe-area-context": "^5.5.2"
   },
