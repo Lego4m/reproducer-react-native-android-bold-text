@@ -12,15 +12,18 @@ import {
   useSafeAreaInsets,
 } from 'react-native-safe-area-context';
 
+import { Reproducer } from './Reproducer';
+
 function App() {
   return (
     <SafeAreaProvider>
       <StatusBar barStyle={'dark-content'} />
-      <AppContent />
+      <Reproducer />
     </SafeAreaProvider>
   );
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function AppContent() {
   const safeAreaInsets = useSafeAreaInsets();
 
